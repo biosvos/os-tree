@@ -8,7 +8,6 @@ sudo pacman -S lld
 qemu-img create -f raw disk.img 200M
 mkfs.fat -s 2 -f 2 -R 32 -F 32 disk.img
 sudo mount -o loop disk.img /mnt
-ls
 sudo mkdir -p /mnt/EFI/BOOT
 sudo cp hello.efi /mnt/EFI/BOOT/BOOTX64.EFI
 sudo umount /mnt
