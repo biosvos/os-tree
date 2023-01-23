@@ -14,8 +14,9 @@ ln -s /Path/To/EdkLoaderPkg
 # 설정
 ```bash
 . edksetup.sh
-
-vim Config/target.txt
+```
+- Config/target.txt 교체
+```bash
 ACTIVE_PLATFORM       = EdkLoaderPkg/EdkLoaderPkg.dsc
 TARGET                = DEBUG
 TARGET_ARCH           = X64
